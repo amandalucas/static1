@@ -39,13 +39,7 @@
 
 
 /* BREAKPOINT: Desktop (BASE) */
-.fr-header-bravo__top-link-text.brxe-text-basic {font-style: normal}
-
-
-
-
-
-
+.fr-header-bravo__top-link-text.brxe-text-basic {font-style: normal
 
 
 
@@ -80,17 +74,8 @@
 
 
 
-
-
-
-
-
-
 /* BREAKPOINT: Desktop (BASE) */
 .fr-cta-charlie__content-wrapper.brxe-div {display: flex; flex-direction: column; row-gap: var(--fr-content-gap)}
-
-
-
 
 
 
@@ -115,20 +100,70 @@
 .fr-cta-charlie__form-wrapper.brxe-div {display: flex; flex-direction: column; row-gap: var(--fr-content-gap); align-items: center; justify-content: center}
 
 
-/* BREAKPOINT: Desktop (BASE) */
-.fr-form-bravo.brxe-form ::placeholder {color: var(--shade-medium)}
-.fr-form-bravo.brxe-form select {color: var(--shade-medium); color: var(--fr-text-dark)}
-.fr-form-bravo.brxe-form .form-group input {color: var(--fr-text-dark)}
-.fr-form-bravo.brxe-form textarea {color: var(--fr-text-dark)}
-.fr-form-bravo.brxe-form .bricks-button {background-color: var(--primary); color: var(--shade-white)}
-.fr-form-bravo.brxe-form {width: 100%}</style>
-<link rel="canonical" href="/contact/">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fcontact%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fcontact%2F#038;format=xml">
-<noscript><style>.wp-grid-builder .wpgb-card.wpgb-card-hidden .wpgb-card-wrapper{opacity:1!important;visibility:visible!important;transform:none!important}.wpgb-facet {opacity:1!important;pointer-events:auto!important}.wpgb-facet *:not(.wpgb-pagination-facet){display:none}</style></noscript>
-<style id="wpcb-styles-header">a[not:.brxe-button, .thickbox] {
-  position: relative;
+/* form */
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
 }
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  ;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  width: 200px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff6384;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #ff6384;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
 a::before[not:.brxe-button, .thickbox] {
   content: '';
   position: absolute;
