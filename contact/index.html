@@ -55,8 +55,6 @@
 
 
 
-
-
 /* BREAKPOINT: Desktop (BASE) */
 .acss-style-guide__hero.brxe-section {background-image: linear-gradient(180deg, #101923, #293e57)}
 
@@ -245,7 +243,7 @@ a:hover::before {
 </div>
 <div class="contact-form">
   <span class="heading">Contact Us</span>
-  <form>
+ <form method="POST" action="https://formspree.io/amanda@itchyfingersdesign.com">
     <label for="name">Name:</label>
     <input type="text" required="">
     <label for="email">Email:</label>
@@ -253,7 +251,21 @@ a:hover::before {
     <label for="message">Message:</label>
     <textarea id="message" name="message" required=""></textarea>
     <button type="submit">Submit</button>
-  </form>
+  
+ 
+  <div class="hpot">
+    <label>Leave this field empty: <input name="_gotcha"></label>
+  </div>
+  <label>Comments:
+    <textarea name="comments"></textarea>
+  </label>
+</form>
+
+// style.css
+.hpot {
+  display: none;
+}
+
 </div>
 
 </div></section></div></main><footer id="brx-footer"><div id="brxe-0f7faf" class="brxe-container fr-bg--light"><div class="brxe-block">
