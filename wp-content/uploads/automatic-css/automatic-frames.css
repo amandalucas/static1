@@ -1,0 +1,57 @@
+/* Version: 2.4.0-beta-1 - Generated 2023-03-10 20:43:45 */
+:root {
+  --fr-bg-light: var(--shade-ultra-light);
+  --fr-bg-dark: var(--shade-ultra-dark);
+  --fr-text-light: var(--shade-ultra-light);
+  --fr-text-dark: var(--shade-ultra-dark);
+  --fr-card-padding: var(--space-m);
+  --fr-card-gap: var(--space-s);
+  --fr-card-border-size: 0.15rem;
+  --fr-card-border-color: var(--shade-light);
+  --fr-card-border-style: solid;
+  --fr-card-radius: var(--radius-xs);
+  --fr-card-avatar-radius: 50%;
+  --fr-lede-width: 60ch;
+  --fr-list-pad-y: 0.75em;
+  --fr-list-pad-x: 1.25em;
+  --fr-hero-padding: var(--section-space-xl);
+}
+.fr-content-gap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+}
+.fr-container-gap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-l);
+}
+.fr-grid-gap {
+  gap: var(--space-l);
+}
+.fr-lede, p.fr-lede {
+  max-width: 60ch;
+}
+.fr-text--light {
+  color: var(--shade-ultra-light);
+}
+.fr-text--dark {
+  color: var(--shade-ultra-dark);
+}
+.fr-bg--light {
+  background-color: var(--shade-ultra-light);
+}
+.fr-bg--dark {
+  background-color: var(--shade-ultra-dark);
+}
+.fr-hero-padding {
+  padding-top: var(--fr-hero-padding);
+  padding-bottom: var(--fr-hero-padding);
+}
+#bricks-popup.templates .bricks-layout-item-inner {
+  height: 100% !important;
+  aspect-ratio: 1.3333333333;
+}
+#bricks-popup.templates img {
+  height: 100% !important;
+}
